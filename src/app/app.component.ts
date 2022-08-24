@@ -14,5 +14,10 @@ export class AppComponent {
     { title: 'Spam', url: '/folder/Spam', icon: 'warning' },
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
-  constructor() {}
+
+  mode: string;
+
+  constructor() {
+    this.mode = 'ios';
+  }
 }
